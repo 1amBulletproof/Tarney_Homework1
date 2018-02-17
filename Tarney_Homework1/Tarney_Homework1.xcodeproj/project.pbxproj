@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1B422472031376200C480B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B422462031376200C480B1 /* AppDelegate.swift */; };
-		A1B422492031376200C480B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B422482031376200C480B1 /* ViewController.swift */; };
-		A1B4224C2031376200C480B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B4224A2031376200C480B1 /* Main.storyboard */; };
-		A1B4224E2031376200C480B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B4224D2031376200C480B1 /* Assets.xcassets */; };
-		A1B422512031376200C480B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B4224F2031376200C480B1 /* LaunchScreen.storyboard */; };
+		A1B4226520313BC500C480B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4226420313BC500C480B1 /* AppDelegate.swift */; };
+		A1B4226720313BC500C480B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4226620313BC500C480B1 /* ViewController.swift */; };
+		A1B4226A20313BC500C480B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B4226820313BC500C480B1 /* Main.storyboard */; };
+		A1B4226C20313BC500C480B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B4226B20313BC500C480B1 /* Assets.xcassets */; };
+		A1B4226F20313BC500C480B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B4226D20313BC500C480B1 /* LaunchScreen.storyboard */; };
+		A1F17AB12033F89100B17772 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F17AB02033F89100B17772 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1B422432031376200C480B1 /* Tarney_Homework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarney_Homework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1B422462031376200C480B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1B422482031376200C480B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A1B4224B2031376200C480B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1B4224D2031376200C480B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1B422502031376200C480B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A1B422522031376200C480B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B4226120313BC500C480B1 /* Tarney_Homework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarney_Homework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B4226420313BC500C480B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1B4226620313BC500C480B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1B4226920313BC500C480B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1B4226B20313BC500C480B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B4226E20313BC500C480B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1B4227020313BC500C480B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F17AB02033F89100B17772 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A1B422402031376100C480B1 /* Frameworks */ = {
+		A1B4225E20313BC500C480B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1B4223A2031376100C480B1 = {
+		A1B4225820313BC500C480B1 = {
 			isa = PBXGroup;
 			children = (
-				A1B422452031376200C480B1 /* Tarney_Homework1 */,
-				A1B422442031376200C480B1 /* Products */,
+				A1B4226320313BC500C480B1 /* Tarney_Homework1 */,
+				A1B4226220313BC500C480B1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A1B422442031376200C480B1 /* Products */ = {
+		A1B4226220313BC500C480B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1B422432031376200C480B1 /* Tarney_Homework1.app */,
+				A1B4226120313BC500C480B1 /* Tarney_Homework1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1B422452031376200C480B1 /* Tarney_Homework1 */ = {
+		A1B4226320313BC500C480B1 /* Tarney_Homework1 */ = {
 			isa = PBXGroup;
 			children = (
-				A1B422462031376200C480B1 /* AppDelegate.swift */,
-				A1B422482031376200C480B1 /* ViewController.swift */,
-				A1B4224A2031376200C480B1 /* Main.storyboard */,
-				A1B4224D2031376200C480B1 /* Assets.xcassets */,
-				A1B4224F2031376200C480B1 /* LaunchScreen.storyboard */,
-				A1B422522031376200C480B1 /* Info.plist */,
+				A1B4226420313BC500C480B1 /* AppDelegate.swift */,
+				A1B4226620313BC500C480B1 /* ViewController.swift */,
+				A1B4226820313BC500C480B1 /* Main.storyboard */,
+				A1B4226B20313BC500C480B1 /* Assets.xcassets */,
+				A1B4226D20313BC500C480B1 /* LaunchScreen.storyboard */,
+				A1B4227020313BC500C480B1 /* Info.plist */,
+				A1F17AB02033F89100B17772 /* DetailViewController.swift */,
 			);
 			path = Tarney_Homework1;
 			sourceTree = "<group>";
@@ -67,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1B422422031376100C480B1 /* Tarney_Homework1 */ = {
+		A1B4226020313BC500C480B1 /* Tarney_Homework1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1B422552031376200C480B1 /* Build configuration list for PBXNativeTarget "Tarney_Homework1" */;
+			buildConfigurationList = A1B4227320313BC500C480B1 /* Build configuration list for PBXNativeTarget "Tarney_Homework1" */;
 			buildPhases = (
-				A1B4223F2031376100C480B1 /* Sources */,
-				A1B422402031376100C480B1 /* Frameworks */,
-				A1B422412031376100C480B1 /* Resources */,
+				A1B4225D20313BC500C480B1 /* Sources */,
+				A1B4225E20313BC500C480B1 /* Frameworks */,
+				A1B4225F20313BC500C480B1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +84,26 @@
 			);
 			name = Tarney_Homework1;
 			productName = Tarney_Homework1;
-			productReference = A1B422432031376200C480B1 /* Tarney_Homework1.app */;
+			productReference = A1B4226120313BC500C480B1 /* Tarney_Homework1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A1B4223B2031376100C480B1 /* Project object */ = {
+		A1B4225920313BC500C480B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Johns Hopkins University";
 				TargetAttributes = {
-					A1B422422031376100C480B1 = {
+					A1B4226020313BC500C480B1 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = A1B4223E2031376100C480B1 /* Build configuration list for PBXProject "Tarney_Homework1" */;
+			buildConfigurationList = A1B4225C20313BC500C480B1 /* Build configuration list for PBXProject "Tarney_Homework1" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +111,55 @@
 				en,
 				Base,
 			);
-			mainGroup = A1B4223A2031376100C480B1;
-			productRefGroup = A1B422442031376200C480B1 /* Products */;
+			mainGroup = A1B4225820313BC500C480B1;
+			productRefGroup = A1B4226220313BC500C480B1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1B422422031376100C480B1 /* Tarney_Homework1 */,
+				A1B4226020313BC500C480B1 /* Tarney_Homework1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A1B422412031376100C480B1 /* Resources */ = {
+		A1B4225F20313BC500C480B1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B422512031376200C480B1 /* LaunchScreen.storyboard in Resources */,
-				A1B4224E2031376200C480B1 /* Assets.xcassets in Resources */,
-				A1B4224C2031376200C480B1 /* Main.storyboard in Resources */,
+				A1B4226F20313BC500C480B1 /* LaunchScreen.storyboard in Resources */,
+				A1B4226C20313BC500C480B1 /* Assets.xcassets in Resources */,
+				A1B4226A20313BC500C480B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1B4223F2031376100C480B1 /* Sources */ = {
+		A1B4225D20313BC500C480B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B422492031376200C480B1 /* ViewController.swift in Sources */,
-				A1B422472031376200C480B1 /* AppDelegate.swift in Sources */,
+				A1F17AB12033F89100B17772 /* DetailViewController.swift in Sources */,
+				A1B4226720313BC500C480B1 /* ViewController.swift in Sources */,
+				A1B4226520313BC500C480B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A1B4224A2031376200C480B1 /* Main.storyboard */ = {
+		A1B4226820313BC500C480B1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A1B4224B2031376200C480B1 /* Base */,
+				A1B4226920313BC500C480B1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A1B4224F2031376200C480B1 /* LaunchScreen.storyboard */ = {
+		A1B4226D20313BC500C480B1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A1B422502031376200C480B1 /* Base */,
+				A1B4226E20313BC500C480B1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +167,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A1B422532031376200C480B1 /* Debug */ = {
+		A1B4227120313BC500C480B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +224,7 @@
 			};
 			name = Debug;
 		};
-		A1B422542031376200C480B1 /* Release */ = {
+		A1B4227220313BC500C480B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +274,7 @@
 			};
 			name = Release;
 		};
-		A1B422562031376200C480B1 /* Debug */ = {
+		A1B4227420313BC500C480B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -285,7 +289,7 @@
 			};
 			name = Debug;
 		};
-		A1B422572031376200C480B1 /* Release */ = {
+		A1B4227520313BC500C480B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -303,25 +307,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1B4223E2031376100C480B1 /* Build configuration list for PBXProject "Tarney_Homework1" */ = {
+		A1B4225C20313BC500C480B1 /* Build configuration list for PBXProject "Tarney_Homework1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1B422532031376200C480B1 /* Debug */,
-				A1B422542031376200C480B1 /* Release */,
+				A1B4227120313BC500C480B1 /* Debug */,
+				A1B4227220313BC500C480B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1B422552031376200C480B1 /* Build configuration list for PBXNativeTarget "Tarney_Homework1" */ = {
+		A1B4227320313BC500C480B1 /* Build configuration list for PBXNativeTarget "Tarney_Homework1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1B422562031376200C480B1 /* Debug */,
-				A1B422572031376200C480B1 /* Release */,
+				A1B4227420313BC500C480B1 /* Debug */,
+				A1B4227520313BC500C480B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A1B4223B2031376100C480B1 /* Project object */;
+	rootObject = A1B4225920313BC500C480B1 /* Project object */;
 }
