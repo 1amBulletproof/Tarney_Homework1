@@ -14,20 +14,27 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     //TEST IPAD WAS HERE! MUAHAHA
     //TODO: import OG images & use JSON image name, not this fake array
-    let images = ["eclipse_path", "grey_sun", "moon_and_sun", "orange_sun", "space", "sun_array"]
+    let images = ["2017-2024", "grey_sun", "moon_and_sun", "orange_sun", "space", "sun_array"]
     let appTitle = "Eclipse 2017 Images"
     let names = ["eclipse1", "eclipse2", "eclipse3", "eclipse4", "eclipse5", "eclipse6"]
     let locations = ["USA", "CUBA", "RUSSIA", "CHINA", "MOON", "GALAXY"]
     let descriptions = ["Eclipse Path", "Grey Sun", "Moon and Sun", "Orange Sun", "Space", "Sun array"]
     let urls = ["https", "https", "https", "https", "https", "https"]
     
+    var jsonEclipseData: EclipseData!
+    
     //TODO: insert images into every cell -> cell.imageView!.image = UIImage(named: imgName)
+    
+    //TODO: make image-in-cells proper height
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         tableView.delegate = self
         tableView.dataSource = self
+        
+        jsonEclipseData.parseJson(jsonFilePath: "eclipse.json")
     }
 
     override func didReceiveMemoryWarning() {
@@ -57,6 +64,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let row = indexPath.row
         let viewController = segue.destination as! DetailViewController
         
+        //TODO: use jsonEclipseData instead
         viewController.detailImagePath = images[row]
         viewController.detailTitle = names[row]
         viewController.detailLocation = locations[row]

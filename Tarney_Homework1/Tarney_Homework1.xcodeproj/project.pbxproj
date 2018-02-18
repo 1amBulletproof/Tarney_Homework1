@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A19BE62C2038EC4900C88CC0 /* eclipse.json in Resources */ = {isa = PBXBuildFile; fileRef = A19BE62B2038EC4800C88CC0 /* eclipse.json */; };
+		A19BE62E20393C2B00C88CC0 /* EclipseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19BE62D20393C2B00C88CC0 /* EclipseData.swift */; };
 		A1B4226520313BC500C480B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4226420313BC500C480B1 /* AppDelegate.swift */; };
 		A1B4226720313BC500C480B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4226620313BC500C480B1 /* ViewController.swift */; };
 		A1B4226A20313BC500C480B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B4226820313BC500C480B1 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A19BE62B2038EC4800C88CC0 /* eclipse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = eclipse.json; path = ../../../eclipse/eclipse.json; sourceTree = "<group>"; };
+		A19BE62D20393C2B00C88CC0 /* EclipseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EclipseData.swift; sourceTree = "<group>"; };
 		A1B4226120313BC500C480B1 /* Tarney_Homework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarney_Homework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B4226420313BC500C480B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B4226620313BC500C480B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,10 +60,12 @@
 		A1B4226320313BC500C480B1 /* Tarney_Homework1 */ = {
 			isa = PBXGroup;
 			children = (
+				A19BE62D20393C2B00C88CC0 /* EclipseData.swift */,
 				A1B4226420313BC500C480B1 /* AppDelegate.swift */,
 				A1B4226620313BC500C480B1 /* ViewController.swift */,
 				A1B4226820313BC500C480B1 /* Main.storyboard */,
 				A1B4226B20313BC500C480B1 /* Assets.xcassets */,
+				A19BE62B2038EC4800C88CC0 /* eclipse.json */,
 				A1B4226D20313BC500C480B1 /* LaunchScreen.storyboard */,
 				A1B4227020313BC500C480B1 /* Info.plist */,
 				A1F17AB02033F89100B17772 /* DetailViewController.swift */,
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B4226F20313BC500C480B1 /* LaunchScreen.storyboard in Resources */,
+				A19BE62C2038EC4900C88CC0 /* eclipse.json in Resources */,
 				A1B4226C20313BC500C480B1 /* Assets.xcassets in Resources */,
 				A1B4226A20313BC500C480B1 /* Main.storyboard in Resources */,
 			);
@@ -142,6 +149,7 @@
 				A1F17AB12033F89100B17772 /* DetailViewController.swift in Sources */,
 				A1B4226720313BC500C480B1 /* ViewController.swift in Sources */,
 				A1B4226520313BC500C480B1 /* AppDelegate.swift in Sources */,
+				A19BE62E20393C2B00C88CC0 /* EclipseData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
