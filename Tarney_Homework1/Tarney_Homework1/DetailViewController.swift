@@ -17,30 +17,22 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var detailUIURL: UILabel!
     @IBOutlet weak var detailUIDetails: UILabel!
     
-    var detailImagePath:String! = "eclipse_path"
-    var detailTitle:String! = "eclipse1"
-    var detailLocation:String! = "USA"
-    var detailURL:String! = "https"
-    var detailDetails:String! = "Eclipse Path"
+    var detailImagePath:String! = "2017-2024"
+    var detailTitle:String! = "Image 1"
+    var detailLocation:String! = "North America"
+    var detailURL:String! = "http://eclipse.siu.edu/about/carbondale-and-the-solar-eclipse/"
+    var detailDetails:String! = "The paths of the 2017 and 2024 solar eclipses."
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //TODO: use EclipseData class to get JSON data in here!
+        
         detailUIImage.image = UIImage(named: detailImagePath)
+        
         detailUITitle.text = detailTitle
         detailUILocation.text = detailLocation
         detailUIURL.text = detailURL
         detailUIDetails.text = detailDetails
 
-        // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    //TODO: fix display to properly show Image Name Lable?
 
 }

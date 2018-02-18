@@ -25,6 +25,27 @@ struct EclipseDataStruct: Codable {
 class EclipseData {
     
     var data: EclipseDataStruct!
+    
+    init(jsonFilePath: String) {
+        //Setup File Name stuff
+        let jsonFilePathArray = jsonFilePath.split(separator: ".")
+        let jsonFileName = String(jsonFilePathArray[0])
+        let jsonFileNameExtension = String(jsonFilePathArray[1])
+        
+        //Get a handle on the actual JSON Resource passed-in
+        let url = Bundle.main.url(
+            forResource: jsonFileName,
+            withExtension: jsonFileNameExtension)!
+        let jsonFileData = try! Data(contentsOf: url)
+        
+        //Decode the JSON data into our handy-dandy struct
+        let decoder = JSONDecoder()
+        do {
+            data = try decoder.decode(EclipseDataStruct.self, from: jsonFileData)
+        } catch {
+            print("could not decode json data")
+        }
+    }
 
     func parseJson(jsonFilePath: String) {
         //Setup File Name stuff
